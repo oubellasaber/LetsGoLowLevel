@@ -1,0 +1,7 @@
+*.o
+*.exe
+*.out
+*.idb
+*.dSYM
+.DS_Store
+
