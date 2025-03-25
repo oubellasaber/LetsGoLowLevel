@@ -12,7 +12,7 @@ _start:
 	mov rdx, 1
 	mov rcx, 64
 
-	.loop:
+	.loop: ; this is a local label, to call it outside of _start we have to call it like this _start.loop
 	push rax
 	sub rcx, 4
 	sar rax, cl
