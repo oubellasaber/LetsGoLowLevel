@@ -1,4 +1,4 @@
-global _start
+gobal _start
 section .data
 	a: db 1
 	b: db 2
